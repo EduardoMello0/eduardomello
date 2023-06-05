@@ -1,8 +1,9 @@
 body{
     background-image: linear-gradient();
+    background-color: LimeGreen;
 }
 header{
-    background: #2b2727;
+    background: Green;
     padding: 20px;
 
 }
@@ -27,13 +28,42 @@ header{
 .titulo-principal{
     position: absolute;
     top: 13%;
-    left: 30%;
+    left: 40%;
     transform: translate(10%, 50%);
     font-size: 35px;
     font-family: lastica;
-    color: red;
+    color: LightCyan ;
     text-align: center;
-    
+    text-shadow: 
+                -1px -1px 0px #2F4F4F,
+                -1px  4px 0px #00CED1,
+                 1px -1px 0px #00FFFF,
+                 1px  0px 0px #FFF;
+}
+
+nav{
+   position:absolute;
+   /*posicionamento dos links*/
+   top: 180px;
+   right: 50px;
+}
+
+nav li{
+   display: inline;
+   margin:0 0 0 15px;
+}
+
+nav a {
+   text-transform: uppercase;
+   color: ;
+   font-size: 22px;
+   text-decoration: none;/*sem linha em baixo do link*/
+   font-family: ;
+}
+
+nav a:hover {
+    color: blueviolet;
+    text-decoration: underline;
 }
 
 main{
@@ -64,7 +94,7 @@ form label, form p{
     width: 40%;
     padding: 15px 0;
     background: darkgreen;
-    color: aliceblue;
+    color: AliceBlue;
     font-weight: bold;
     font-size: 18px;
     border: none;
@@ -73,7 +103,7 @@ form label, form p{
     cursor: pointer;
 }
 .enviar:hover {
-    background: red;
+    background: Lime;
     transform: scale(1.2);
 }
 .copyright{
