@@ -1,0 +1,93 @@
+body{
+    background-image: linear-gradient();
+}
+header{
+    background: #2b2727;
+    padding: 20px;
+
+}
+
+#logo{
+    border-radius: 20px;
+
+}
+
+#logo1{
+    width: 200px;
+    height: 95px;
+    text-align: center;
+   
+}
+
+@font-face {
+    font-family: 'lastica';
+    src: url('Lastica.ttf')  format('opentype');
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(10%, 50%);
+    font-size: 35px;
+    font-family: lastica;
+    color: red;
+    text-align: center;
+    
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40px, para os lados "zero"*/
+}
+
+form label, form p{
+
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 30px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: darkgreen;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover {
+    background: red;
+    transform: scale(1.2);
+}
+.copyright{
+    color: #000;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+footer{
+    text-align: center;
+    background-image: url("bg.jpg");
+    padding: 10px 0;
+}
+#logo1{
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+}
