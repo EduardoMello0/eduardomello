@@ -1,0 +1,16 @@
+.Cabecalho{
+    background-color:hsl(0, 2%, 26%) ;
+    width: auto;
+    height:150px;
+}
+.Conteudo{
+    background-color:rgb(0, 201, 13);
+    width: auto;
+    height:700px;
+
+}
+.Rodape{
+    background-color:rgb(254, 254, 254) ;
+    width: auto;
+    height:150px;   
+}
