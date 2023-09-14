@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JS aula 2</title>
+</head>
+<body>
+
+ <script>
+
+    var numero=Number.parseInt(window.prompt("Digite numero:"))
+    document.write(numero ,'<br>')
+    window.alert(numero)
+
+    var numero2=Number.parseInt(window.prompt("Digite numero2"))
+    document.write(numero2 ,'<br>')
+
+    var soma=numero+numero2
+    document.write('=', soma ,'<br>')
+
+    var multiplicação=numero*numero2
+    document.write('=', multiplicação ,'<br>')
+
+    var divisão=numero/numero2
+    document.write('=', divisão ,'<br>')
+
+    var subtração=numero-numero2
+    document.write('=', subtração ,'<br>')
+
+    var resto=numero%numero2
+    document.write('=', resto ,'<br>')
+
+ </script>
+
+</body>
+</html>
